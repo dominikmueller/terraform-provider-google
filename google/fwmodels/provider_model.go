@@ -153,10 +153,12 @@ type ProviderModel struct {
 	MonitoringCustomEndpoint               types.String `tfsdk:"monitoring_custom_endpoint"`
 	NetappCustomEndpoint                   types.String `tfsdk:"netapp_custom_endpoint"`
 	NetworkConnectivityCustomEndpoint      types.String `tfsdk:"network_connectivity_custom_endpoint"`
+	NetworkConnectivityv1CustomEndpoint    types.String `tfsdk:"network_connectivityv1_custom_endpoint"`
 	NetworkManagementCustomEndpoint        types.String `tfsdk:"network_management_custom_endpoint"`
 	NetworkSecurityCustomEndpoint          types.String `tfsdk:"network_security_custom_endpoint"`
 	NetworkServicesCustomEndpoint          types.String `tfsdk:"network_services_custom_endpoint"`
 	NotebooksCustomEndpoint                types.String `tfsdk:"notebooks_custom_endpoint"`
+	ObservabilityCustomEndpoint            types.String `tfsdk:"observability_custom_endpoint"`
 	OracleDatabaseCustomEndpoint           types.String `tfsdk:"oracle_database_custom_endpoint"`
 	OrgPolicyCustomEndpoint                types.String `tfsdk:"org_policy_custom_endpoint"`
 	OSConfigCustomEndpoint                 types.String `tfsdk:"os_config_custom_endpoint"`
