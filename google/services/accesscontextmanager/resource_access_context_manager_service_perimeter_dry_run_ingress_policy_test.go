@@ -38,7 +38,7 @@ func testAccAccessContextManagerServicePerimeterDryRunIngressPolicy_basicTest(t 
 
 	// Bootstrap a service account to use as ingress from identity
 	initialServiceAccount := envvar.GetTestServiceAccountFromEnv(t)
-	serviceAccount := acctest.BootstrapServiceAccount(t, "acm-ingress-identity-1", initialServiceAccount)
+	serviceAccount := acctest.BootstrapServiceAccount(t, "acm-ingress-1", initialServiceAccount)
 
 	policyTitle := acctest.RandString(t, 10)
 	perimeterTitle := "perimeter"
